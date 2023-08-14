@@ -1,0 +1,17 @@
+.about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
