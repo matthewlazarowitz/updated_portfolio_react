@@ -46,3 +46,19 @@ const [name, setName] = useState('');
     setMessage('');
     setErrors({});
   };
+
+  return (
+    <div className="app">
+      <Header />
+      <AboutMe />
+      { <Projects projects={projects} /> }
+      <section id="contact" className="contact">
+        <h2>Contact</h2>
+        <form onSubmit={handleSubmit}>
+        </form>
+      </section>
+    </div>
+  );
+
+export default App;
+
